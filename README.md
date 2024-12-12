@@ -1,6 +1,7 @@
 # CUDA Histogram Computation
 
-This project demonstrates how to compute histograms in parallel on a GPU using NVIDIA CUDA. The program calculates a histogram with 256 bins (typically for grayscale pixel intensities ranging from 0 to 255) using parallel processing for faster computation.
+This project demonstrates how to compute histograms in parallel on a GPU using NVIDIA CUDA. The program calculates a histogram with 256 bins (typically for grayscale pixel intensities ranging from 0 to 255) using parallel processing for faster computation.An array of bins that counts how many times each value occurs in an input dataset
+
 
 ## Features
 
@@ -31,7 +32,7 @@ Run the compiled binary:
 
 bash
 
-./histogram_cuda
+./histogram_cuda </br>
 The program generates a random dataset and computes the histogram, displaying the count of each bin (0 to 255).
 
 Example Output:
