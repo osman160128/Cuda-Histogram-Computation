@@ -38,7 +38,8 @@ The program generates a random dataset and computes the histogram, displaying th
 Example Output:
 plaintext
 Copy code
-Bin 0: 41234
-Bin 1: 38912
+Bin 0: 41234</br>
+Bin 1: 38912</br>
 ...
-Bin 255: 40502
+Bin 255: 40502</br>
+result may be change in your time
