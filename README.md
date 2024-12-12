@@ -23,10 +23,10 @@ This project demonstrates how to compute histograms in parallel on a GPU using N
 
 Compile the program using nvcc:
 
-## nvcc -o histogram_cuda histogram_cuda.cpp</br>
+#### nvcc -o histogram_cuda histogram_cuda.cpp</br>
 Run the compiled binary:
 
-## ./histogram_cuda </br>
+#### ./histogram_cuda </br>
 The program generates a random dataset and computes the histogram, displaying the count of each bin (0 to 255).
 
 Example Output:
