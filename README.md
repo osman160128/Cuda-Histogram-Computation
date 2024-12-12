@@ -19,18 +19,12 @@ This project demonstrates how to compute histograms in parallel on a GPU using N
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/yourusername/cuda-histogram-computation.git
-   cd cuda-histogram-computation
 
 Compile the program using nvcc:
 
-bash
 nvcc -o histogram_cuda histogram_cuda.cpp
-Usage
 Run the compiled binary:
-
-bash
 
 ./histogram_cuda </br>
 The program generates a random dataset and computes the histogram, displaying the count of each bin (0 to 255).
